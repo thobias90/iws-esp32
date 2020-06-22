@@ -13,6 +13,7 @@
 #include "lwip/sys.h"
 
 #include "wifi_config.h"
+#include "webserver.h"
 
 static const char *TAG = "WiFi";
 static int s_retry_num = 0;
@@ -36,7 +37,11 @@ static void event_handler(void* arg, esp_event_base_t event_base,
             }
         }
         
-        if (event_id == WIFI_EVENT_AP_STACONNECTED) {
+        if (event_id == WIFI_EVENT_AP_START) {
+            ESP_LOGI(TAG, "ESP32 AP - START");
+            start_webserver();
+            initialise_mdns();
+        } else if (event_id == WIFI_EVENT_AP_STACONNECTED) {
             wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
             ESP_LOGI(TAG, "station "MACSTR" join, AID=%d",
                     MAC2STR(event->mac), event->aid);

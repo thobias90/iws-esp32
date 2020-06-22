@@ -50,7 +50,10 @@ app_main.o: \
  /home/thobias/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/thobias/esp/esp-idf/components/log/include/esp_log.h \
  /home/thobias/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h
+ /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h \
+ /home/thobias/esp/projects/iot_weather_station/components/WebServer/webserver.h \
+ /home/thobias/esp/esp-idf/components/esp_http_server/include/esp_http_server.h \
+ /home/thobias/esp/esp-idf/components/nghttp/port/include/http_parser.h
 
 /home/thobias/esp/projects/iot_weather_station/build/include/sdkconfig.h:
 
@@ -153,4 +156,10 @@ app_main.o: \
 /home/thobias/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h:
+
+/home/thobias/esp/projects/iot_weather_station/components/WebServer/webserver.h:
+
+/home/thobias/esp/esp-idf/components/esp_http_server/include/esp_http_server.h:
+
+/home/thobias/esp/esp-idf/components/nghttp/port/include/http_parser.h:
 /home/thobias/esp/projects/iot_weather_station/main/./app_main.c:

@@ -1,4 +1,5 @@
-/home/thobias/esp/projects/iot_weather_station/build/WiFi/libWiFi.a
+/home/thobias/esp/projects/iot_weather_station/build/WebServer/libWebServer.a
+ /home/thobias/esp/projects/iot_weather_station/build/WiFi/libWiFi.a
  /home/thobias/esp/projects/iot_weather_station/build/app_trace/libapp_trace.a
  /home/thobias/esp/projects/iot_weather_station/build/app_update/libapp_update.a
  /home/thobias/esp/projects/iot_weather_station/build/asio/libasio.a

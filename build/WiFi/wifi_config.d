@@ -125,7 +125,10 @@ wifi_config.o: \
  /home/thobias/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/thobias/esp/esp-idf/components/lwip/lwip/src/include/lwip/err.h \
  /home/thobias/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h \
- /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h
+ /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h \
+ /home/thobias/esp/projects/iot_weather_station/components/WebServer/webserver.h \
+ /home/thobias/esp/esp-idf/components/esp_http_server/include/esp_http_server.h \
+ /home/thobias/esp/esp-idf/components/nghttp/port/include/http_parser.h
 
 /home/thobias/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -378,4 +381,10 @@ wifi_config.o: \
 /home/thobias/esp/esp-idf/components/lwip/lwip/src/include/lwip/sys.h:
 
 /home/thobias/esp/projects/iot_weather_station/components/WiFi/wifi_config.h:
+
+/home/thobias/esp/projects/iot_weather_station/components/WebServer/webserver.h:
+
+/home/thobias/esp/esp-idf/components/esp_http_server/include/esp_http_server.h:
+
+/home/thobias/esp/esp-idf/components/nghttp/port/include/http_parser.h:
 /home/thobias/esp/projects/iot_weather_station/components/WiFi/./wifi_config.c:
